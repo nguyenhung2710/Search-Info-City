@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.5/tables-min.min.css">
+        <link rel="stylesheet" href="main.css">
+    <body>
+        <header>
+            <h1>Tìm kiếm thông tin khu vực, dân số 64 tỉnh thành</h1>
+            <form id="form">
+                <input type="text" id="search" placeholder="Nhập tên tỉnh thành..." />
+            </form>
+        </header>
+        <div id="result" class="container">
+            <p class="result">Kết quả</p>
+        </div>
+        <div id="more" class="container centered"></div>
+        <table id="cityList" class="pure-table">
+            <thead>
+                <th>Thành phố</th>
+                <th>Tỉnh</th>
+                <th>Khu vực</th>
+                <th>Dân số</th>
+            </thead>
+            <tbody id="cityListBody"></tbody>
+        </table>
+        <br><br><br>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
